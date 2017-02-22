@@ -1,0 +1,76 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "dk.forum.newz.events"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "dk.forum.newz.events"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "dk.forum.newz.events"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "dk.forum.newz.events"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "dk.forum.newz.events"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "dk.forum.newz.events"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "dk.forum.newz.events"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "dk.forum.newz.events"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "dk.forum.newz.events"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "dk.forum.newz.events"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "dk.forum.newz.events"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "dk.forum.newz.events"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "dk.forum.newz.events"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "dk.forum.newz.events"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "dk.forum.newz.events"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "dk.forum.newz.events"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "dk.forum.newz.events"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "dk.forum.newz.events"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "dk.forum.newz.events"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "dk.forum.newz.events"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "dk.forum.newz.events"
+        }
+    }
+}
