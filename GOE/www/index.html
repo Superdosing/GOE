@@ -20,7 +20,6 @@
     under the License.
 -->
 <html>
-
 <head>
     <meta charset="utf-8" />
     <meta name="format-detection" content="telephone=no" />
@@ -38,9 +37,8 @@
     -->
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
     <!-- Links til CSS -->
-    <link rel="stylesheet" type="text/css" href="css/index.css"/>
-    <link href="css/bootstrap.css" rel="stylesheet"/>
-    
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
 
     <!-- Links til JS -->
     <script src="js/bootstrap.min.js"></script>
@@ -49,20 +47,61 @@
     <script src="js/Main.js"></script>
     <title>Hello World</title>
 </head>
-
 <body>
-    <div class="app">
-        <h1>PhoneGap</h1>
-        <div id="deviceready" class="blink">
-            <p class="event listening">Connecting to Device</p>
-            <p class="event received">Device is Ready</p>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-6 col-sm-4">
+                banner
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <header class="drawer-navbar drawer-navbar--fixed" role="banner">
+                    <div class="drawer-container">
+                        <div class="drawer-navbar-header">
+                            <a class="drawer-brand" href="./index.html">Drawer</a>
+                            <button type="button" class="drawer-toggle drawer-hamburger">
+                                <span class="sr-only">toggle navigation</span>
+                                <span class="drawer-hamburger-icon"></span>
+                            </button>
+                        </div>
+
+                        <nav class="drawer-nav" role="navigation">
+                            <ul class="drawer-menu">
+                                <li><a class="drawer-menu-item" href="./top.html">Top</a></li>
+                                <li><a class="drawer-menu-item" href="./index.html">Left</a></li>
+                                <li><a class="drawer-menu-item" href="./right.html">Right</a></li>
+                                <li><a class="drawer-menu-item" href="./right.html">Forum</a></li>
+                                </ul> 
+                        </nav>
+
+                    </div>
+                </header>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4">nyheder</div>
+            <div class="col-lg-4">events</div>
+            <div class="col-lg-4">forums</div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">footer</div>
         </div>
     </div>
+
+
+
+
     <script type="text/javascript" src="cordova.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
+    <script src="js/drawer.js"></script>
     <script type="text/javascript">
         app.initialize();
     </script>
 </body>
-
 </html>
